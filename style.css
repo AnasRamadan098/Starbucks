@@ -162,10 +162,10 @@ header ul li a:hover::after {
         left:30px ; 
     }
 }
-@media (max-width:773px) {
+@media (min-width:773px) {
     .content .textbox h2 {
-        font-size: 2em;
-        width: 300px;
+        font-size: 3em;
+        width: auto;
     }
 }
 .thumb {
@@ -217,7 +217,12 @@ header ul li a:hover::after {
     clip-path : circle(600px at right 800px);
 }
 @media(max-width:768px) {
-    .circle {
+    .thumb,
+    .soc
+     {
         display: none;
+    }
+    .circle {
+        clip-path :circle(180px at left 615px);
     }
 }
