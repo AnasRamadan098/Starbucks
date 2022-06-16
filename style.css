@@ -155,6 +155,12 @@ header ul li a:hover::after {
     .content .textbox {
         text-align: center;
     }
+    .thumb {
+       display:none !important; 
+    }
+    .soc {
+        left:30px ; 
+    }
 }
 @media (max-width:773px) {
     .content .textbox h2 {
